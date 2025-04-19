@@ -23,9 +23,9 @@ ai_agent_project/
 ├─ README.md               # you are here
 ├─ test_setup.py           # hello‑LLM sanity check
 └─src/
-   ├─ agent_state.py      # TypedDict schema for the running state
-   ├─ nodes.py            # three capability functions
-   └─ agent_graph.py      # LangGraph wiring + `analyze()` helper
+   ├─ agent_state.py      # Memory: TypedDict schema for the running state
+   ├─ nodes.py            # Brain: three capability functions
+   └─ agent_graph.py      # Scopes: LangGraph wiring + `analyze()` helper
 
 ```
 
