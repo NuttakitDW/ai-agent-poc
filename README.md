@@ -35,7 +35,7 @@ ai_agent_project/
 
 ```bash
 # 1. clone & enter
-git clone https://github.com/yourname/r0.git && cd r0
+git clone https://github.com/NuttakitDW/ai-agent-poc.git && cd ai-agent-poc.git
 
 # 2. python env
 python3 -m venv agent_env
@@ -100,3 +100,4 @@ MIT — see `LICENSE`.
 
 Based on *“The Complete Guide to Building Your First AI Agent with
 LangGraph”* by Paolo Perrone (Mar 2025, Data Science Collective).
+https://medium.com/data-science-collective/the-complete-guide-to-building-your-first-ai-agent-its-easier-than-you-think-c87f376c84b2
