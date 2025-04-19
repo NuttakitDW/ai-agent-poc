@@ -22,13 +22,11 @@ ai_agent_project/
 ├─ .env.example            # template for secrets
 ├─ README.md               # you are here
 ├─ test_setup.py           # hello‑LLM sanity check
-├─ src/
-│   ├─ agent_state.py      # TypedDict schema for the running state
-│   ├─ nodes.py            # three capability functions
-│   └─ agent_graph.py      # LangGraph wiring + `analyze()` helper
-└─ tests/
-    ├─ conftest.py         # patches ChatOpenAI with EchoLLM for offline CI
-    └─ test_agent.py       # smoke test on `run_once()`
+└─src/
+   ├─ agent_state.py      # TypedDict schema for the running state
+   ├─ nodes.py            # three capability functions
+   └─ agent_graph.py      # LangGraph wiring + `analyze()` helper
+
 ```
 
 ---
